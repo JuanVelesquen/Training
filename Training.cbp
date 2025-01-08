@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Training" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Training" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Training" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="sfml-audio" />
+			<Add directory="SFML/lib" />
+		</Linker>
+		<Unit filename="Arboles.cpp" />
+		<Unit filename="Arboles.h" />
+		<Unit filename="ArchivoConfiguracion.cpp" />
+		<Unit filename="ArchivoConfiguracion.h" />
+		<Unit filename="ArchivoSavefile.cpp" />
+		<Unit filename="ArchivoSavefile.h" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Configuracion.cpp" />
+		<Unit filename="Configuracion.h" />
+		<Unit filename="Effects.cpp" />
+		<Unit filename="Effects.h" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.h" />
+		<Unit filename="Entidad.cpp" />
+		<Unit filename="Entidad.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameState.cpp" />
+		<Unit filename="GameState.h" />
+		<Unit filename="Jugador.cpp" />
+		<Unit filename="Jugador.h" />
+		<Unit filename="MainMenuState.cpp" />
+		<Unit filename="MainMenuState.h" />
+		<Unit filename="Obstaculos.cpp" />
+		<Unit filename="Obstaculos.h" />
+		<Unit filename="OptionsState.cpp" />
+		<Unit filename="OptionsState.h" />
+		<Unit filename="Piedras.cpp" />
+		<Unit filename="Piedras.h" />
+		<Unit filename="PlayerCreationState.cpp" />
+		<Unit filename="PlayerCreationState.h" />
+		<Unit filename="Savefile.cpp" />
+		<Unit filename="Savefile.h" />
+		<Unit filename="SavefileState.cpp" />
+		<Unit filename="SavefileState.h" />
+		<Unit filename="ScoreState.cpp" />
+		<Unit filename="ScoreState.h" />
+		<Unit filename="Sound.cpp" />
+		<Unit filename="Sound.h" />
+		<Unit filename="States.cpp" />
+		<Unit filename="States.h" />
+		<Unit filename="TextBox.cpp" />
+		<Unit filename="TextBox.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
